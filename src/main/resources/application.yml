@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    password: sandeep
+    url: jdbc:mysql://localhost:3306/jrtp
+    username: root
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+    
+  mvc:
+    view:
+      prefix: /page/
+      suffix: .jsp
+server:
+  port: 2012
